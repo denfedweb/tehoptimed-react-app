@@ -1,0 +1,12 @@
+.Logo{
+  margin: 35px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #444444;
+}
+.Contacts{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 50px;
+}
