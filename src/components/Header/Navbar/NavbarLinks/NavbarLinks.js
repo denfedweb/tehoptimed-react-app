@@ -6,25 +6,19 @@ const NavbarLinks = () => {
     return (
         <Fragment>
             <li className="nav-item">
-                <NavLink className="nav-link" to="/">Главная <span className="sr-only">(current)</span></NavLink>
+                <NavLink className="nav-link" to="/"><i className="fas fa-home"/> Главная</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link" to="/">Link</NavLink>
-            </li>
-            <li className="nav-item dropdown">
-                <NavLink className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button"
-                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                </NavLink>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <NavLink className="dropdown-item" to="/">Action</NavLink>
-                    <NavLink className="dropdown-item" to="/">Another action</NavLink>
-                    <div className="dropdown-divider"/>
-                    <NavLink className="dropdown-item" to="/">Something else here</NavLink>
-                </div>
+                <NavLink className="nav-link" to="/about"><i className="fas fa-suitcase"/> О Компании</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link disabled" to="/" tabIndex="-1" aria-disabled="true">Disabled</NavLink>
+                <NavLink className="nav-link" to="/catalog"><i className="fas fa-medkit"/> Каталог</NavLink>
+            </li>
+            <li className="nav-item">
+                <NavLink className="nav-link" to="/contacts"><i className="fas fa-phone-square-alt"/> Контакты</NavLink>
+            </li>
+            <li className="nav-item">
+                <NavLink className="nav-link" to="/price-list"><i className="far fa-file-powerpoint"/> Прайс-лист</NavLink>
             </li>
         </Fragment>
     );
