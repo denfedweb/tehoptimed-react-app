@@ -1,9 +1,13 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import styless from './DropdownMenu.module.scss';
+import {NavbarContext} from "../NavbarContext";
 
 const DropdownMenu = () => {
+    const {onMouseEnter, onMouseLeave, state } = useContext(NavbarContext);
+    const {dropdownOpened} = state;
+
     return (
-        <div className={styless.DropdownMenu}>
+        <div className={styless.DropdownMenu} onMouseLeave={onMouseLeave} onMouseOver={onMouseEnter} style={{display: dropdownOpened ? "flex" : "none" }}>
             <ul className="list-group list-group-flush">
                 <li className="list-group-item">Аптечное</li>
                 <li className="list-group-item">Больничное</li>

@@ -23,4 +23,19 @@ code {
 .navbar-light .navbar-nav .nav-link:hover {
   color: #00B0A6;
 }
+.awssld{
+  height: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.awssld__bullets{
+  bottom: 15px !important;
+  z-index: 2;
+  button{
+    background: #ccc !important;
+  }
+  .awssld__bullets--active{
+    background: rgb(227, 242, 253) !important;
+  }
+}
 
