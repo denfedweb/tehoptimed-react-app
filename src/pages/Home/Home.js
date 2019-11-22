@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import styless from "./Home.module.scss";
+// import styless from "./Home.module.scss";
 import Slider from "../../components/Slider/Slider";
 import ContentBlock from "../../hoc/ContentBlock/ContentBlock";
 import MainCard from "../../components/MainCard/MainCard";
