@@ -1,0 +1,24 @@
+.MainCard{
+  div{
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  img{
+    width: 100%;
+    border-radius: 6px;
+  }
+  span{
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
+    background-color: rgba(0, 116, 109, 0.7);
+    padding: 15px 0;
+  }
+}
