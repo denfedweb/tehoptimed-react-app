@@ -1,15 +1,10 @@
 import React from 'react';
 import stylles from './Contacts.module.scss';
-import Toolbar from "../../components/Toolbar/Toolbar";
-import ContentBlock from "../../hoc/ContentBlock/ContentBlock";
 import InfoContent from "../../hoc/InfoContent/InfoContent";
 
 const Contacts = () => {
     return (
         <div className={stylles.Contacts}>
-            <ContentBlock>
-                <Toolbar/>
-            </ContentBlock>
             <InfoContent>
                 <h1>Контактная информация</h1>
                 <h3>„TEHOPTIMED” SA </h3>

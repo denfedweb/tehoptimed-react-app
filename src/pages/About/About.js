@@ -1,15 +1,10 @@
 import React from 'react';
 import stylles from './About.module.scss';
-import ContentBlock from "../../hoc/ContentBlock/ContentBlock";
-import Toolbar from "../../components/Toolbar/Toolbar";
 import InfoContent from "../../hoc/InfoContent/InfoContent";
 
 const About = () => {
     return (
         <div className={stylles.About}>
-            <ContentBlock>
-                <Toolbar/>
-            </ContentBlock>
             <InfoContent>
                 <h1>Информация о предприятии </h1>
                 <p>Наше предприятие было основано в Молдове в 1964 году, которое осуществляет поставки медицинской техники и оптики, ее монтаж, ремонт и техническое обслуживание. В 1995 году было преобразовано в АО «Teхоптимед». Располагает складам и торговой площадью , что составляет 2, 5 тысячи кв.м.
