@@ -7,6 +7,7 @@ import MainCard from "../../components/MainCard/MainCard";
 
 const Home = () => {
 
+
     return (
         <Fragment>
             <ContentBlock>
